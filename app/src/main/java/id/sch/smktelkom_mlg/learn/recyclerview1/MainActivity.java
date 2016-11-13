@@ -19,6 +19,7 @@ import id.sch.smktelkom_mlg.learn.recyclerview1.model.Hotel;
 public class MainActivity extends AppCompatActivity {
     ArrayList<Hotel> mList = new ArrayList<>();
     HotelAdapter mAdapter;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
